@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+  <!--TITLE-->  
+  <title>Enter a title</title>
+  
+  <!-- Change the color of the tab on mobile: -->
+  <meta name="theme-color" content="#E3CA72">
+
+  <!-- CSS LINKING -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet"> 
+
+  <!--meta (needed for media queries and such)-->    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+  <!--Javascript-->
+    <!--jQuery-->  
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+    crossorigin="anonymous"></script>      
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- D3 -->
+     <!-- <script src="https://d3js.org/d3.v5.min.js"></script>-->
+    <!--FONT AWESOME-->
+      <script src="https://kit.fontawesome.com/ead9e1b81c.js" crossorigin="anonymous"></script>
+      
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div id="anything" class="col-12-md">
+        <p id="displayUsername"></p>
+        <h1>You are</h1>
+      </div>
+    </div>
+  </div>
+
+  <div id="visualsDiv" class="container">
+    <!-- Sentences will populate here -->
+  </div>
+
+
+  <!-- ADD CONNECTION BUTTON -->
+  <div id="buttonConnectionClosed">+</div>
+
+  <div id="buttonConnectionOpen">
+      <form>
+          Enter your friend's username:<br>
+          <input type="text" name="connection" value="Enter Your Connection's Username">
+          <input id="buttonAddConnection" class="button-cta-primary submitButton" type="submit" value="Add Connection">
+      </form> 
+  </div>
+
+
+
+
+
+<!--CONTAINER-->
+
+
+  
+  
+  
+<!-- Local Javascript file link-->  
+<!-- <script src="./js/calculateFriend.js"></script>  -->
+<script src="./js/calculateFriend.js"></script> 
+</body>
+</html>

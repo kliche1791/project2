@@ -1,0 +1,190 @@
+
+/* ============ CLEAR ALL PRESET STUFF ============ */
+html {font-size: 62.5%;} /* Sets the default size so you can use ems and rems */
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-size: 62.5%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+/* Font weights: 100,300,500,900 */
+
+body{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 300;
+  color: white;
+  background: rgb(85,108,242);
+  background: linear-gradient(0deg, rgba(85,108,242,1) 0%, rgba(77,103,253,1) 100%);
+  font-family: 'Lato', sans-serif;
+}
+
+.wrapper{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 40em;
+}
+
+p {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 6em;
+  letter-spacing: .15em;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+
+.titleLockup{
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+.list-group-item {
+  line-height: 2.5;
+}
+
+.buttonLockup{
+  padding-top: 3em;
+  padding-bottom: 10em;
+}
+
+.button-cta{
+  font-size: 2em;
+  color: white;
+  padding: 1em;
+  text-align: center;
+  width: 100%;
+  border-radius: .2em;
+  border: 0px white solid;
+}
+
+.button-circular {
+  font-size: 2em;
+  color: white;
+  width: 80px;
+  padding: 1em;
+  text-align: center;
+  border-radius: .2em;
+  border: 0px white solid;
+}
+
+.button-cta-primary{
+  background-color: #5066E9;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow:    5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+  box-shadow:         5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+}
+
+.button-cta-secondary{
+}
+
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+input[type=text]{
+  background-color: #3F5AF0;
+  font-size: 2em;
+  padding: .75em;
+  border: 0 solid white;
+  color: white;
+  width: 100%;
+}
+
+input[type=text]::placeholder{
+
+  color: white;
+
+}
+
+input[type=text]:focus{
+  background-color: #5066E9;
+  border: 0 solid white;
+  -webkit-box-shadow: 5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow:    5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+  box-shadow:         5px 5px 14px 0px rgba(0, 0, 0, 0.42);
+}
+
+
+
+/* =========== PROFILE FORM PAGE ========== ========== ========== ========== ========== */
+.profileFormQuestionDiv {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.subText{
+  text-align: left;
+  font-size: 1em;
+  font-weight: 200;
+  /* color: orange; */
+}
+
+
+
+
+/* =========== SURVEY PAGE ========== ========== ========== ========== ========== */
+
+.sliderLabelsRow{
+  height: 4em;
+}
+
+.questionDiv {
+  padding: 3.5em .5em 3.5em .5em;
+}
+
+.slider{
+width: 100%;
+}
+
+.rangeLabels {
+  font-size: 1em;
+  color: white;
+}
+
+.answer2 {
+  position: absolute;
+  right: 0;ß
+  background-color: orange;
+}
+
+.inlineQuestion {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50em;
+  margin-bottom: 8em;
+}
+
+
+#userNameMessageDiv{
+  background-color: #3F5AF0;
+  width: 100%;
+  margin: 1em;
+  border-radius: .5em;
+  padding: 2em 1em 2em 1em;
+  font-size: 1em;
+  padding: 1em;
+}
+
+#displayUsername{
+  width: 80%;
+  text-align: center;
+}
+
+.connectionButtonDiv{
+  
+}
