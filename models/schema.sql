@@ -1,5 +1,5 @@
-DROP DATABASE IF EXISTS friendMatchdb;
-CREATE DATABASE friendMatchdb;
+DROP DATABASE IF EXISTS 	t7e5z0szid84hp76;
+CREATE DATABASE 	t7e5z0szid84hp76;
 
-USE friendMatchdb;
+USE 	t7e5z0szid84hp76;
 SELECT * FROM answers;
